@@ -8,6 +8,7 @@ const transporter = nodemailer.createTransport({
   },
 });
 
+
 const mailOptions = {
   from: "your-email@gmail.com",
   to: "your-email@gmail.com",
